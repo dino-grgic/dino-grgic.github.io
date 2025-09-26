@@ -1,11 +1,8 @@
 ---
 layout: default
-title: Dino Grgić - CV
 ---
 
-<div class="header">
-  <!-- ...existing header HTML from index.html... -->
-</div>
+<img class="profile-picture" src="https://avatars.githubusercontent.com/u/19477994?s=400&u=1ecceb29f2302d2f254d85d2a124e8a70f49979d&v=4">
 
 ## Work Experience
 
@@ -23,6 +20,8 @@ _Jul 2020 - Current_
 - Internal knowledge sharing sessions regarding new AI research and technologies
 - Member of content team for [Advanced Technology Days](https://www.advtechdays.com/en/)
 
+---
+
 ## Education
 
 ### Faculty of Electrical Engineering and Computing, University of Zagreb
@@ -32,6 +31,8 @@ _Nov 2018 - Jul 2023_
 
 - [Master Thesis](http://www.zemris.fer.hr/predmeti/ra/Magisterij/23_Grgic/Final_0036516270_94.pdf): _Deep Learning Models for Real-Time Video Upscaling_
 - Notable Courses: _Text Analysis and Retrieval, Deep Learning, Design Patterns, Computer Security, Cryptography and Cryptoanalysis_
+
+---
 
 ## Projects and Academic Work
 
@@ -50,17 +51,20 @@ _Nov 2022 - Feb 2023_
 Natural Language Processing research as part of Text Analysis and Retrieval course  
 _2022_
 
+---
+
 ## Technical Skills
 
 | **Programming Languages** | C#, Python, JavaScript, Java, C++    |
-| ------------------------- | ------------------------------------ |
 | **Cloud**                 | Azure, AWS                           |
 | **Databases**             | CosmosDB, MongoDB, MSSQL, PostgreSQL |
 | **Tools**                 | Git, Azure DevOps, Docker, M-Files   |
 
+
 ## Other
 
 | **Languages**       | Croatian (native), English (fluent) |
-| ------------------- | ----------------------------------- |
 | **Drivers license** | B                                   |
 | **Hobbies**         | Running, Hiking, Music, Cooking     |
+
+---

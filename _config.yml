@@ -1,3 +1,31 @@
-title: Dino Grgić - CV
-description: Personal CV and portfolio
-theme: minima
+remote_theme: ankitsultana/researcher
+
+# Site settings
+title: "Dino Grgić"
+description: "Your description here"
+author: "Dino Grgić"
+email: dino.grgic1@gmail.com
+url: "https://dino-grgic.github.io"
+baseurl: "" # leave empty for user site
+
+# Navigation
+nav:
+  - name: "About"
+    link: "/"
+  - name: "Resume"
+    link: "/cv/cv_en.pdf"
+  - name: "Contact"
+    link: "contact"
+
+plugins:
+  - jekyll-remote-theme
+
+markdown: kramdown
+highlighter: rouge
+sass:
+  style: compressed
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
