@@ -2,11 +2,11 @@ remote_theme: ankitsultana/researcher
 
 # Site settings
 title: "Dino Grgić"
-description: "Your description here"
+description: "Dino Grgić's personal portfolio website"
 author: "Dino Grgić"
 email: dino.grgic1@gmail.com
 url: "https://dino-grgic.github.io"
-baseurl: "" # leave empty for user site
+baseurl: ""
 
 # Navigation
 nav:
@@ -15,7 +15,7 @@ nav:
   - name: "Resume"
     link: "/cv/cv_en.pdf"
   - name: "Contact"
-    link: "contact"
+    link: "mailto:dino.grgic1@gmail.com"
 
 plugins:
   - jekyll-remote-theme
