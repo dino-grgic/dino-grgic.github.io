@@ -1,0 +1,22 @@
+<div class="links-container">
+    {% if page.github-slides-pptx %}
+    <a href="https://github.com/{{ site.github_username }}/{{ page.github-repo }}/blob/main/{{ page.github-slides-pptx }}" class="link-button" target="_blank">
+        <span class="link-text">Slides (PPTX)</span>
+        <span class="link-icon">→</span>
+    </a>
+    {% endif %}
+
+    {% if page.github-slides-pdf %}
+    <a href="https://github.com/{{ site.github_username }}/{{ page.github-repo }}/blob/main/{{ page.github-slides-pdf }}" class="link-button" target="_blank">
+        <span class="link-text">Slides (PDF)</span>
+        <span class="link-icon">→</span>
+    </a>
+    {% endif %}
+
+    {% if page.github-repo %}
+    <a href="https://github.com/{{ site.github_username }}/{{ page.github-repo }}" class="link-button" target="_blank">
+        <span class="link-text">GitHub Repository</span>
+        <span class="link-icon">→</span>
+    </a>
+    {% endif %}
+</div>

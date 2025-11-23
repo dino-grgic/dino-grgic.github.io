@@ -8,6 +8,10 @@ email: dino.grgic1@gmail.com
 url: "https://dino-grgic.github.io"
 baseurl: ""
 
+# Social Links
+github_username: dino-grgic
+linkedin_username: dinogrgic
+
 # Navigation
 nav:
   - name: "About"
@@ -29,3 +33,13 @@ collections:
   projects:
     output: true
     permalink: /:collection/:name/
+  presentations:
+    output: true
+    permalink: /presentations/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "presentations"
+    values:
+      layout: "presentations"

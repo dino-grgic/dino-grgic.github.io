@@ -16,16 +16,21 @@ title: "Presentations - Dino Grgić"
         <div class="profile-section">
             <img class="profile-picture" src="https://avatars.githubusercontent.com/u/19477994?s=400&u=1ecceb29f2302d2f254d85d2a124e8a70f49979d&v=4" alt="Dino Grgić">
             <h1>Presentations</h1>
-            <p class="subtitle">Collection of my talks and presentations</p>
         </div>
 
         <div class="links-container">
-            <!-- Add your presentation links here -->
-            <a href="/presentations/atd20.html" class="link-button">
-                <span class="link-icon">🎯</span>
-                <span class="link-text">ATD20 Presentation</span>
-                <span class="link-icon">→</span>
-            </a>
+            {% assign sorted_presentations = site.presentations | sort: 'date' | reverse %}
+            {% for pres in sorted_presentations %}
+                <a href="{{ pres.url }}" class="link-button">
+                    {% if pres.event-logo %}
+                        <img src="{{ pres.event-logo }}" alt="{{ pres.event }}" class="event-logo">
+                    {% else %}
+                        <span class="link-icon">🎯</span>
+                    {% endif %}
+                    <span class="link-text">{{ pres.event }} - {{ pres.title }}</span>
+                    <span class="link-icon">→</span>
+                </a>
+            {% endfor %}
         </div>
 
         <div class="back-link">
