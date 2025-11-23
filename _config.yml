@@ -8,11 +8,11 @@ email: dino.grgic1@gmail.com
 url: "https://dino-grgic.github.io"
 baseurl: ""
 
-# Social Links
+future: true
+
 github_username: dino-grgic
 linkedin_username: dinogrgic
 
-# Navigation
 nav:
   - name: "About"
     link: "/"
