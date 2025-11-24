@@ -12,15 +12,14 @@ layout: default
 _Jul 2020 - Current_
 
 - Design and development of [Extension Kit products](https://extensionkit.unitfly.com/) including various .NET client libraries, NuGet packages and APIs
+- Design and development of Document Intelligence solutions using LLMs and Azure AI services
+- Work on multi-agent AI chatbot system for first-level customer support
 - Administration of Azure Cloud infrastructure and CI/CD for internal projects and products
-- PoCs and integrations of various external AI services and LLMs with M-Files
 - [Microsoft OpenHack coach](https://www.flane.de/en/openhack) in partnership with [Nephos](https://nephos.eu/) and [FastLane](https://www.flane.de) with topics in Agentic AI using Azure Cloud infrastructure
 - Support and development for [M-Files](https://www.m-files.com/) implementations of Unitflys' customers
 - Student mentoring, code review, organization of innovation days at Unitfly
 - Internal knowledge sharing sessions regarding new AI research and technologies
 - Member of content team for [Advanced Technology Days](https://www.advtechdays.com/en/)
-
----
 
 ## Education
 
