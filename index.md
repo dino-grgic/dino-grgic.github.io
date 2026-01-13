@@ -6,10 +6,15 @@ layout: default
 
 ## Work Experience
 
+### [Elixirr Digital](https://www.elixirrdigital.com/us/), Zagreb, Croatia
+
+**AI Engineer**
+_Jan 2026 - Current_
+
 ### [Unitfly](https://unitfly.com/), Zagreb, Croatia
 
 **Software Engineer Specialist**  
-_Jul 2020 - Current_
+_Jul 2020 - Jan 2026_
 
 - Design and development of [Extension Kit products](https://extensionkit.unitfly.com/) including various .NET client libraries, NuGet packages and APIs
 - Design and development of Document Intelligence solutions using LLMs and Azure AI services
