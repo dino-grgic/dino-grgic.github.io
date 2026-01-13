@@ -8,7 +8,7 @@ layout: default
 
 ### [Elixirr Digital](https://www.elixirrdigital.com/us/), Zagreb, Croatia
 
-**AI Engineer**
+**AI Engineer**  
 _Jan 2026 - Current_
 
 ### [Unitfly](https://unitfly.com/), Zagreb, Croatia
